@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    border-bottom:5px solid #087f5b;
+}
+
+
+
+.header{
+    background-color: #087f5b33;
+}
+
+.mheader{
+    height:60px;
+    background-color:#087f5b;
+}
+
+
+.htopic{
+    width: 50% ;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 15px;
+    list-style: none;
+    
+}
+
+.mheader ul a li:hover{
+    color: rgb(142, 236, 219);
+    font-size: 1.03rem;
+    
+}
+
+.htopic li{
+    text-decoration: none;
+    color: white;
+
+}
+
+.cuntainer{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
+
+/* header */
+.content{
+    width: 440px;
+    margin-left: 10px;
+}
+
+.headcon{
+    padding-top: 24px;
+}
+
+.headlink{
+    padding-top: 24px;
+    display: inline-block;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    /* background-color: rgb(166, 180, 193); */
+    /* position: relative; */
+    height: 400px;
+    border-radius: 20px;
+}
+.img1{
+    border-radius: 400px;
+}
+
+.headlink{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    background-color:#087f5b;;
+    padding:10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* body */
+
+.main1{
+    margin-top: 48px;
+    display: flex;
+}
+
+h3{
+    margin-bottom: 16px;
+}
+
+.main2{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main2inner{
+    width: 613px;
+    color: white;  
+}
+
+.main2{
+    background-color:#087f5b;;
+    height: 250px;
+    border-radius: 20px;
+    /* position: relative; */ 
+}
+
+.img2{
+    padding-left: 20px;
+    border-radius: 20px;
+    align-items: center;
+    /* position: absolute; */
+}
+
+/* .main3 */
+.main3header{
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.main33{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.inf{
+    padding: 32px;
+}
+
+.ulli{
+    margin-bottom: 48px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.inf li{
+    padding-bottom: 5px;
+}
+
+.price{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+}
+
+.addtocart{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #087f5b;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.furniture{
+    border-radius: 20px;
+    box-shadow:10px 10px 25px 1px rgba(0, 0, 0, 0.281);
+}
+
+
+
+
+/* -------------------------login------------------------------- */
+
+
+
+.login{
+    height: 700px;
+    width: 1519.2px;
+    position: relative;
+    /* background-color: aqua; */
+    background: url('login-furniture.jpg') ;    
+  background-size: cover;
+    background-position: center;
+
+    
+}
+
+.logininner{
+    height: 300px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.564);
+    position: absolute;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow:10px 10px 25px 1px rgba(0, 0, 0, 0.803);
+    left: 560px;
+    top: 200px;
+    
+}
+
+.loginh1{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.inputid{
+    width: 300px;
+    height: 35px ;
+    margin-bottom: 10px;
+    border: 2px solid rgb(37, 36, 36);
+    border-radius: 40px;
+    border: none;
+}
+
+.inputpassword{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(37, 36, 36);
+    border-radius: 40px;
+    border: none;
+}
+
+.logincheckbox{
+    margin-bottom: 40px;
+}
+
+.loginsubmite{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    background-color:#087f5b;;
+    padding:10px;
+    /* margin: 10px; */
+    border-radius: 20px;
+    /* margin-top: 50px; */
+    /* text-align: center; */
+    padding-left: 125px;
+    padding-right: 125px;
+
+}
+
+/* ---------------------------------------------------registration---------------------------------------------
+ */
+
+.regmain{
+    height: 700px;
+    width: 1519.2px;
+    /* background-color: aqua; */
+    position: relative;
+    background-image: url(regbg.jpg);
+    background-size: cover;
+    background-position:center ;
+    
+}
+
+
+
+.reginner{
+    display: flex;
+    height: 450px;
+    width: 1100px;
+    background-color: rgba(244, 244, 244, 0.805);
+    justify-content: space-between;
+    /* margin-top: 125px;
+    margin-left: 209.5px; ; */
+    position: absolute;
+    top: 125px;
+    left: 209.5px;
+
+}
+
+.regbg{
+    background-color: rgba(0, 0, 0, 0.601);
+}
+
+.regform{
+    width: 600px;
+}
+
+
+.regh1{
+    margin-bottom: 30px;
+}
+
+
+
+.regemail{
+    margin-bottom: 15px;
+}
+
+.regphone{
+    margin-bottom: 15px;
+}
+
+.reggender{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.regsubmit{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: #087f5b;
+    border: none;
+    color: white;
+}
+.box{
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+}
+
+
+/* ------------------------------------------------------about us------------------------------------ */
+
+
+
+
+.aboutusimg1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.aboutush1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.ourbeliefs{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutush2{
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.oursecret{
+    width: 1270px;
+    margin: auto;
+    /* background-color: antiquewhite; */
+    margin-top: 50px;
+}
+
+.oursecret h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.oursecretexp{
+    display: flex;
+}
+
+.oursecret h2{
+    margin-bottom: 15px;
+}
+
+.oursecretexp1{
+    margin: auto;
+    margin-left: 10px;
+} 
+
+
+
+/* --------------------------------blog--------------------------------- */
+.blogh{
+    /* background: url('20.jpg') ; */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.blog{
+    width: 1200px;
+    margin: auto;
+    background-color:#087f5b5a;
+    border-radius: 30px;
+}
+
+.blogh1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.blogcon{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.blogcon div{
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blogcon img{
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}

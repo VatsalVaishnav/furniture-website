@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <script>
+            function validation()
+            {
+                if(document.myform.txtid.value==" "){
+                    alert("enter id");
+                    return false;
+                }
+                if(document.myform.txtpassword.value==" "){
+                    alert("enter the passward");
+                    return false;
+                }
+
+            }
+        </script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="mheader">
+            <ul class="htopic">
+                <a href="index.html"><li>home</li></a> 
+                <a href="registration.html"><li>registration</li></a>
+                <a href="blog.html"><li>blog</li></a>
+                <a href="login.html"><li>login</li></a>
+                <a href="aboutus.html"><li>about us</li></a>
+            </ul>
+        </div>
+        <div class="login">
+          <div class="logininner" name="myForm" onsubmit="return(valodation());">
+            <h1 class="loginh1">LogIn</h1>
+            ID <br>
+            <input  class="inputid" type="text" name="txtid" placeholder="your ID">
+            <br>
+            password
+            <br>    
+            <input class="inputpassword" type="password" name="txtpassword" placeholder="your password">
+            <br>
+            <input class="logincheckbox" type="checkbox" name="rememberme" >remember me
+            <br>
+
+            <a href="#" class="loginsubmite">login</a>
+            <!-- <input type="submit" class="loginsubmite">   -->
+             </div>
+    </div>
+    </body>
+</html>

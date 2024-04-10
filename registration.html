@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="mheader">
+      <ul class="htopic">
+        <a href="index.html"><li>home</li></a>
+        <a href="registration.html"><li>registration</li></a>
+        <a href="blog.html"><li>blog</li></a>
+        <a href="login.html"><li>login</li></a>
+        <a href="aboutus.html"><li>about us</li></a>
+      </ul>
+    </div>
+
+    <div class="regmain">
+      <div class="reginner">
+        <img
+          src="registrationimage.jpg"
+          alt="registrationimage"
+          height="450"
+          width="450px"
+        />
+
+        <div class="regform">
+          <h1 class="regh1">registration</h1>
+          <div class="name">
+            Firat name
+            <input
+              class="box"
+              type="text"
+              name="firstname"
+              placeholder="first name"
+            />
+            last name
+            <input
+              class="box"
+              type="text"
+              name="lastname"
+              placeholder="last name"
+            />
+          </div>
+
+          <br />
+          Email address
+          <br />
+          <input
+            class="regemail box"
+            type="text"
+            name="Emailaddress"
+            placeholder="abc@gmail.com"
+          />
+          <br />
+          Phone no
+          <br />
+          <input class="regphone box" type="tel" name="phoneno" />
+          <br />
+          city <input class="box" type="text" name="city" /> state
+          <select name="state" id="">
+            <option value="gujarat">gujarat</option>
+            <option value=" Goa">Goa</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Maharashtra">Maharashtra</option>
+          </select>
+          Zip code <input class="box" type="text" name="zipcode" />
+
+          <br />
+          <div class="reggender">
+            gender <br />
+            <input type="radio" name="gender" />
+            <label for="gendermale">male</label>
+            <input type="radio" name="gender" />
+            <label for="genderfemal">femal</label>
+            <br />
+          </div>
+          <button type="button" class="regsubmit">submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
